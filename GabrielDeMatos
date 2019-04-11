@@ -1,0 +1,4 @@
+altura = int (input("Entre com a quantidade de linhas da piramide: "))
+
+for i in range(1,altura+1):
+    print ('_'*(altura-i)+'*'*((i*2)-1)+'_'*(altura-i))
